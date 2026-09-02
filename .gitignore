@@ -1,0 +1,13 @@
+# Generated transcripts + raw course dumps — keep the repo lean
+transcripts/
+raw/
+
+# Python / JS
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# OS junk
+Thumbs.db
+.DS_Store

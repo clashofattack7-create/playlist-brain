@@ -1,0 +1,1 @@
+[{"method":"Runtime.evaluate","params":{"expression":"(() => JSON.stringify({\n  hrefs: Array.from(document.querySelectorAll('a[href]')).map(a => a.getAttribute('href')).filter(h => /option|chain|strike|nifty/i.test(h)).slice(0, 40)\n}))()","returnByValue":true}}]

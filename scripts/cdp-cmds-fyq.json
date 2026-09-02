@@ -1,0 +1,1 @@
+[{"method":"Runtime.evaluate","params":{"expression":"JSON.stringify({\n  url: location.href,\n  txt: (document.body.innerText||'').replace(/\\s+/g,' ').slice(0,260),\n  visBtns: Array.from(document.querySelectorAll('button')).filter(b=>b.offsetParent!==null).map(b=>(b.innerText||'').replace(/\\s+/g,' ').trim()).filter(Boolean).slice(0,10)\n})","returnByValue":true}}]
